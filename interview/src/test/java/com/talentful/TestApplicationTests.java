@@ -1,4 +1,4 @@
-package com.matches;
+package com.talentful;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -9,14 +9,14 @@ import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.web.server.LocalServerPort;
 
-import com.matches.controller.FootballController;
-import com.matches.model.GetFootballMatchResponse;
+import com.talentful.controller.CompanyController;
+//import com.talentful.models.GetFootballMatchResponse;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 class TestApplicationTests {
 
 	@Autowired
-	private FootballController controller;
+	private CompanyController controller;
 	
 	@Autowired
 	private TestRestTemplate restTemplate;
@@ -29,10 +29,10 @@ class TestApplicationTests {
 	@LocalServerPort
 	private int port;	
 	
-	@Test
-	public void greetingShouldReturnDefaultMessage() throws Exception {
+	/*@Test
+	public void getCompanyAllTest() throws Exception {
 		System.out.println(restTemplate.getForObject("http://localhost:" + port + "/matches/b",
-				GetFootballMatchResponse.class).getPage());
-	}
+				ListGetFootballMatchResponse.class).getPage());
+	}*/
 	
 }

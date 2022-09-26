@@ -1,4 +1,4 @@
-package com.matches;
+package com.talentful;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

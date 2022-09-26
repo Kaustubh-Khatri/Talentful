@@ -1,4 +1,4 @@
-package com.matches.services;
+package com.talentful.service;
 
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.DefaultHttpClient;

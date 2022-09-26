@@ -1,4 +1,5 @@
-package com.matches.services;
+package com.talentful.services;
+/*package com.matches.services;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
@@ -11,7 +12,9 @@ import org.mockito.Mockito;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.ResponseEntity;
 
-import com.matches.model.GetFootballMatchResponse;
+import com.talentful.models.GetFootballMatchResponse;
+import com.talentful.service.FootballService;
+import com.talentful.service.RestTemplateConfig;
 
 @SpringBootTest
 public class FootballServiceTest {
@@ -32,4 +35,4 @@ public class FootballServiceTest {
 		System.out.println(" >>>> " + helloService.getFootballMatchResponse().getPage());
 	}
 
-}
+}*/
